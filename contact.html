@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Επικοινωνία</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: sans-serif;
+      background-image: url('epikoinwnia.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    form {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 10px;
+      width: 300px;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Χρυσές Σταγόνες</h1>
+    <nav>
+      <a href="index.html">Αρχική</a>
+      <a href="about.html">Σχετικά με εμάς</a>
+      <a href="products.html">Προϊόντα</a>
+      <a href="contact.html">Επικοινωνία</a>
+    </nav>
+  </header>
+  <div class="form-container">
+    <form>
+      <h2>Επικοινωνήστε μαζί μας</h2>
+      <input type="text" placeholder="Όνομα" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Μήνυμα" required></textarea>
+      <button type="submit">Αποστολή</button>
+    </form>
+  </div>
+</body>
+</html>
